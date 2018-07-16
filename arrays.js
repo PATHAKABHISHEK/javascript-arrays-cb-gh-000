@@ -15,7 +15,9 @@ var addElementToEndOfArray = (chocolateBars1,element) =>{
 }
 
 var destructivelyAddElementToEndOfArray = (chocolateBars1,element) =>{
-  return chocolateBars1.push()
+ chocolateBars1.push()
+  return chocolateBars1
+  
 }
 
 var accessElementInArray = (chocolateBars1,index) =>{
