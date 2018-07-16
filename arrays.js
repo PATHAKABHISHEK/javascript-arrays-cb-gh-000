@@ -8,6 +8,12 @@ var destructivelyAddElementToBeginningOfArray = (chocolateBars,element) =>{
   return chocolateBars.unshift()
 }
 
-var addElementToEndOfArray = () =>{
-  
+var addElementToEndOfArray = (chocolateBars,element) =>{
+  return [...chocolateBars,element]
 }
+
+var destructivelyAddElementToEndOfArray = (chocolateBars,element) =>{
+  return chocolateBars.push()
+}
+
+var 
