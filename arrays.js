@@ -36,7 +36,7 @@ var destructivelyRemoveElementFromEndOfArray = (chocolateBars1) =>{
 }
 
 var removeElementFromEndOfArray = (chocolateBars1) =>{
-  after_removing_but_not_altering =  chocolateBars1.pop()
+  after_removing_but_not_altering =  chocolateBars1.slice(0,chocolateBars1.length-1)
   return after_removing_but_not_altering
   
 }
