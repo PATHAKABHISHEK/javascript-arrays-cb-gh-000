@@ -5,7 +5,7 @@ var addElementToBeginningOfArray = (chocolateBars1,element) =>{
 }
 
 var destructivelyAddElementToBeginningOfArray = (chocolateBars1,element) =>{
-  return chocolateBars1.unshift()
+  return chocolateBars1.unshift(element)
 }
 
 var addElementToEndOfArray = (chocolateBars1,element) =>{
