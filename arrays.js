@@ -24,3 +24,10 @@ var destructivelyRemoveElementFromBeginningOfArray = (chocolateBars1) =>{
   
   return chocolateBars1.shift() 
 }
+
+var removeElementFromBeginningOfArray = (chocolateBars1) =>{
+  
+afterremoving = chocolateBars1.slice(1)
+return afterremoving
+}
+
