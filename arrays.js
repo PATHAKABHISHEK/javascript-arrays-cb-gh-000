@@ -20,6 +20,7 @@ var accessElementInArray = (chocolateBars1,index) =>{
   return chocolateBars1[index]
 }
 
-var destructivelyRemoveElementFromBeginningOfArray = () =>{
+var destructivelyRemoveElementFromBeginningOfArray = (chocolateBars1) =>{
   
+  return 
 }
