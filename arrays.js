@@ -22,5 +22,5 @@ var accessElementInArray = (chocolateBars1,index) =>{
 
 var destructivelyRemoveElementFromBeginningOfArray = (chocolateBars1) =>{
   
-  return 
+  return chocolateBars1.shift() 
 }
