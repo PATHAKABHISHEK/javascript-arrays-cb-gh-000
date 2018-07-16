@@ -31,3 +31,9 @@ afterremoving = chocolateBars1.slice(1)
 return afterremoving
 }
 
+var destructivelyRemoveElementFromEndOfArray = () =>{
+  
+}
+
+
+
