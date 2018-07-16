@@ -32,8 +32,8 @@ return afterremoving
 }
 
 var destructivelyRemoveElementFromEndOfArray = (chocolateBars1) =>{
-  newarray =  chocolateBars1.pop()
-  return newarray
+  chocolateBars1.pop()
+  return chocolateBars1
   
 }
 
