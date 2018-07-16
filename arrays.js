@@ -32,7 +32,9 @@ return afterremoving
 }
 
 var destructivelyRemoveElementFromEndOfArray = (chocolateBars1) =>{
-  return chocolateBars1.pop()
+  newarray =  chocolateBars1.pop()
+  return newarray
+  
 }
 
 var removeElementFromEndOfArray = (chocolateBars1) =>{
